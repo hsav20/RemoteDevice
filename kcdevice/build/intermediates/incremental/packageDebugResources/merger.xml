@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res"/><source path="D:\pAndroid\RemoteDevice\kcdevice\build\generated\res\rs\debug"/><source path="D:\pAndroid\RemoteDevice\kcdevice\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res"><file name="mn_browser_enter_anim" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\anim\mn_browser_enter_anim.xml" qualifiers="" type="anim"/><file name="mn_browser_exit_anim" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\anim\mn_browser_exit_anim.xml" qualifiers="" type="anim"/><file name="browser_scale_with_alpha" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\animator\browser_scale_with_alpha.xml" qualifiers="" type="animator"/><file name="eq_hb_bg" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\drawable\eq_hb_bg.png" qualifiers="" type="drawable"/><file name="eq_vb_bg" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\drawable\eq_vb_bg.png" qualifiers="" type="drawable"/><file name="eq_vb_bg_noise" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\drawable\eq_vb_bg_noise.png" qualifiers="" type="drawable"/><file name="mn_browser_default_placeholder" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\drawable\mn_browser_default_placeholder.9.png" qualifiers="" type="drawable"/><file name="mn_browser_num_bg" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\drawable\mn_browser_num_bg.xml" qualifiers="" type="drawable"/><file name="mn_browser_white_radius" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\drawable\mn_browser_white_radius.xml" qualifiers="" type="drawable"/><file name="noti_scrubber_control_normal" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\drawable\noti_scrubber_control_normal.png" qualifiers="" type="drawable"/><file name="progress_blue" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\drawable\progress_blue.png" qualifiers="" type="drawable"/><file name="progress_gray" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\drawable\progress_gray.png" qualifiers="" type="drawable"/><file name="progress_horizontal" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\drawable\progress_horizontal.xml" qualifiers="" type="drawable"/><file name="group_channel_s1" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\group_channel_s1.xml" qualifiers="" type="layout"/><file name="group_input_s1" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\group_input_s1.xml" qualifiers="" type="layout"/><file name="group_microphone_s1" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\group_microphone_s1.xml" qualifiers="" type="layout"/><file name="group_more_s1" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\group_more_s1.xml" qualifiers="" type="layout"/><file name="group_play_s1" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\group_play_s1.xml" qualifiers="" type="layout"/><file name="group_record_s1" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\group_record_s1.xml" qualifiers="" type="layout"/><file name="group_setup_s1" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\group_setup_s1.xml" qualifiers="" type="layout"/><file name="group_speaker_s1" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\group_speaker_s1.xml" qualifiers="" type="layout"/><file name="group_status_s1" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\group_status_s1.xml" qualifiers="" type="layout"/><file name="group_surround_s1" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\group_surround_s1.xml" qualifiers="" type="layout"/><file name="group_system_s1" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\group_system_s1.xml" qualifiers="" type="layout"/><file name="group_tone_s1" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\group_tone_s1.xml" qualifiers="" type="layout"/><file name="group_volume_s1" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\group_volume_s1.xml" qualifiers="" type="layout"/><file name="item_common_layout" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\item_common_layout.xml" qualifiers="" type="layout"/><file name="item_device_center" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\item_device_center.xml" qualifiers="" type="layout"/><file name="item_device_delete" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\item_device_delete.xml" qualifiers="" type="layout"/><file name="item_device_search" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\item_device_search.xml" qualifiers="" type="layout"/><file name="item_device_setup" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\item_device_setup.xml" qualifiers="" type="layout"/><file name="item_horizontal_adj" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\item_horizontal_adj.xml" qualifiers="" type="layout"/><file name="item_main" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\item_main.xml" qualifiers="" type="layout"/><file name="item_speaker_setup" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\item_speaker_setup.xml" qualifiers="" type="layout"/><file name="item_vertical_adj" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\item_vertical_adj.xml" qualifiers="" type="layout"/><file name="item_vertical_adj_noise" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\item_vertical_adj_noise.xml" qualifiers="" type="layout"/><file name="normal_list_activity" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\normal_list_activity.xml" qualifiers="" type="layout"/><file name="page_device_center" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\page_device_center.xml" qualifiers="" type="layout"/><file name="page_device_delete" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\page_device_delete.xml" qualifiers="" type="layout"/><file name="page_device_micro_eq" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\page_device_micro_eq.xml" qualifiers="" type="layout"/><file name="page_device_search" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\page_device_search.xml" qualifiers="" type="layout"/><file name="page_device_setup" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\page_device_setup.xml" qualifiers="" type="layout"/><file name="page_kc35h" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\page_kc35h.xml" qualifiers="" type="layout"/><file name="page_noise_test" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\page_noise_test.xml" qualifiers="" type="layout"/><file name="page_speaker_setup" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\page_speaker_setup.xml" qualifiers="" type="layout"/><file name="page_version_info" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\layout\page_version_info.xml" qualifiers="" type="layout"/><file name="cwac_richedittext_colors" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\menu\cwac_richedittext_colors.xml" qualifiers="" type="menu"/><file name="cwac_richedittext_effects" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\menu\cwac_richedittext_effects.xml" qualifiers="" type="menu"/><file name="cwac_richedittext_entry" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\menu\cwac_richedittext_entry.xml" qualifiers="" type="menu"/><file name="cwac_richedittext_fonts" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\menu\cwac_richedittext_fonts.xml" qualifiers="" type="menu"/><file name="cwac_richedittext_lines" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\menu\cwac_richedittext_lines.xml" qualifiers="" type="menu"/><file name="cwac_richedittext_main" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\menu\cwac_richedittext_main.xml" qualifiers="" type="menu"/><file name="cwac_richedittext_size" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\menu\cwac_richedittext_size.xml" qualifiers="" type="menu"/><file name="ic_launcher" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\mipmap\ic_launcher.png" qualifiers="" type="mipmap"/><file name="ic_launcher_round" path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\mipmap\ic_launcher_round.png" qualifiers="" type="mipmap"/><file path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="RichTextEditor">
+        <attr format="dimension" name="rich_textSize"/>
+        <attr format="color" name="rich_textColor"/>
+        <attr format="string" name="rich_hint"/>
+        <attr format="color" name="rich_hintTextColor"/>
+        <attr format="dimension" name="rich_paddingLeft"/>
+        <attr format="dimension" name="rich_paddingRight"/>
+        <attr format="dimension" name="rich_paddingTop"/>
+        <attr format="dimension" name="rich_paddingBottom"/>
+    </declare-styleable><declare-styleable name="MNImageBrowserCircleIndicator">
+        <attr format="dimension" name="ci_width"/>
+        <attr format="dimension" name="ci_height"/>
+        <attr format="dimension" name="ci_margin"/>
+        <attr format="reference" name="ci_animator"/>
+        <attr format="reference" name="ci_animator_reverse"/>
+        <attr format="reference" name="ci_drawable"/>
+        <attr format="reference" name="ci_drawable_unselected"/>
+
+        <attr format="enum" name="ci_orientation">
+            
+            <enum name="horizontal" value="0"/>
+            
+            <enum name="vertical" value="1"/>
+        </attr>
+
+        <attr name="ci_gravity">
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="center_vertical" value="0x10"/>
+            
+            <flag name="fill_vertical" value="0x70"/>
+            
+            <flag name="center_horizontal" value="0x01"/>
+            
+            <flag name="fill_horizontal" value="0x07"/>
+            
+            <flag name="center" value="0x11"/>
+            
+            <flag name="fill" value="0x77"/>
+            
+            <flag name="clip_vertical" value="0x80"/>
+            
+            <flag name="clip_horizontal" value="0x08"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+        </attr>
+
+    </declare-styleable></file><file path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\values\dimens.xml" qualifiers=""><dimen name="rich_font_heading_1">20sp</dimen><dimen name="rich_font_heading_2">18sp</dimen><dimen name="rich_font_heading_3">16sp</dimen><dimen name="rich_font_paragraph">14sp</dimen></file><file path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\values\ids.xml" qualifiers=""><item name="mn_ib_statusbarutil_fake_status_bar_view" type="id"/><item name="mn_ib_statusbarutil_translucent_view" type="id"/></file><file path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\values\strings.xml" qualifiers=""><string name="cwac_richedittext_bold">Bold</string><string name="cwac_richedittext_italic">Italic</string><string name="cwac_richedittext_underline">Underline</string><string name="cwac_richedittext_strikethrough">Strikethrough</string><string name="cwac_richedittext_superscript">Superscript</string><string name="cwac_richedittext_subscript">Subscript</string><string name="cwac_richedittext_sans">Sans Serif</string><string name="cwac_richedittext_serif">Serif</string><string name="cwac_richedittext_mono">Monospace</string><string name="cwac_richedittext_effects">Effects</string><string name="cwac_richedittext_fonts">Fonts</string><string name="cwac_richedittext_format">Format</string><string name="cwac_richedittext_lines">Lines</string><string name="cwac_richedittext_normal">Normal</string><string name="cwac_richedittext_center">Center</string><string name="cwac_richedittext_opposite">Opposite</string><string name="cwac_richedittext_grow">Grow</string><string name="cwac_richedittext_shrink">Shrink</string><string name="cwac_richedittext_size">Size</string><string name="cwac_richedittext_color">Color</string><string name="cwac_richedittext_foreground">Foreground</string><string name="cwac_richedittext_background">Background</string><string name="device_center">智能电器</string><string name="search_device">查找设备</string><string name="edit_device">编辑设备</string><string name="device_name">设备名</string><string name="modify_device_name">修改设备名字</string><string-array name="top_EQ_text_A">
+        <item>60Hz</item>
+        <item>120Hz</item>
+        <item>240Hz</item>
+        <item>360Hz</item>
+        <item>420Hz</item>
+    </string-array><string-array name="left_EQ_text_B">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>话筒1</item>
+        <item>话筒2</item>
+    </string-array><string-array name="noise_type_text">
+        <item>前置左</item>
+        <item>前置右</item>
+        <item>中置</item>
+        <item>环绕右</item>
+        <item>环绕左</item>
+        <item>后置左</item>
+        <item>后置右</item>
+        <item>超低音</item>
+    </string-array><string-array name="KCM_INPUT_SOURCE">
+        <item>00,模拟</item>
+        <item>10,光纤</item>
+        <item>11,同轴1</item>
+        <item>12,同轴2</item>
+        <item>30,HDMI1</item>
+        <item>31,HDMI2</item>
+        <item>32,HDMI3</item>
+        <item>33,HDMI-ARC</item>
+        <item>34,视频</item>
+        <item>20,云音乐</item>
+    </string-array><string-array name="KCM_LISTEN_MODE">
+        <item>00,HIFI立体声</item>
+        <item>01,立体声+超低音</item>
+        <item>10,多声道</item>
+        <item>20,多声道1</item>
+        <item>21,多声道2</item>
+        <item>22,多声道dsp</item>
+    </string-array><string-array name="KCM_EQ_SELECT">
+        <item>00,平直音效</item>
+        <item>01,流行音效</item>
+        <item>02,古典音效</item>
+        <item>03,摇滚音效</item>
+        <item>04,爵士音效</item>
+    </string-array><string-array name="KCM_SRC_FORMAT">
+        <item>00,没有</item>
+        <item>01,模拟</item>
+        <item>02,PCM</item>
+        <item>03,AC3</item>
+        <item>04,AC3 HD</item>
+        <item>05,DTS</item>
+        <item>06,DTS HD</item>
+        <item>07,AAC</item>
+        <item>08,LPCM</item>
+        <item>09,HDCD</item>
+        <item>0a,MP3</item>
+    </string-array><string-array name="play_txet">
+        <item>显示</item>
+        <item>随机</item>
+        <item>重复</item>
+        <item>录音</item>
+        <item>停止</item>
+        <item>暂停</item>
+        <item>上一曲</item>
+        <item>下一曲</item>
+    </string-array><string-array name="speaker_type_text">
+        <item>中置</item>
+        <item>低音</item>
+        <item>前置左</item>
+        <item>前置右</item>
+        <item>环绕左</item>
+        <item>环绕右</item>
+        <item>后置左</item>
+        <item>后置右</item>
+    </string-array><string-array name="speaker_button_text_a">
+        <item>大喇叭</item>
+        <item>开喇叭</item>
+        <item>大喇叭</item>
+        <item>大喇叭</item>
+        <item>大喇叭</item>
+        <item>大喇叭</item>
+        <item>大喇叭</item>
+        <item>大喇叭</item>
+    </string-array><string-array name="speaker_button_text_b">
+        <item>小喇叭</item>
+        <item>关喇叭</item>
+        <item>小喇叭</item>
+        <item>小喇叭</item>
+        <item>小喇叭</item>
+        <item>小喇叭</item>
+        <item>小喇叭</item>
+        <item>小喇叭</item>
+    </string-array><string-array name="speaker_button_text_c">
+        <item>关喇叭</item>
+        <item/>
+        <item/>
+        <item/>
+        <item>关喇叭</item>
+        <item>关喇叭</item>
+        <item>关喇叭</item>
+        <item>关喇叭</item>
+    </string-array><string-array name="device_setup">
+        <item>修改名字</item>
+        <item>BBB</item>
+        <item>CCC</item>
+        <item>版本信息</item>
+    </string-array></file><file path="D:\pAndroid\RemoteDevice\kcdevice\src\main\res\values\topServer.xml" qualifiers=""><string-array name="topServer">
+        <item>.ip71.cn</item>
+        <item>.ip72.cn</item>
+        <item>.ip73.cn</item>
+    </string-array></file></source><source path="D:\pAndroid\RemoteDevice\kcdevice\build\generated\res\rs\debug"/><source path="D:\pAndroid\RemoteDevice\kcdevice\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\pAndroid\RemoteDevice\kcdevice\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\pAndroid\RemoteDevice\kcdevice\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="RichTextEditor">
+        <attr format="dimension" name="rich_textSize"/>
+        <attr format="color" name="rich_textColor"/>
+        <attr format="string" name="rich_hint"/>
+        <attr format="color" name="rich_hintTextColor"/>
+        <attr format="dimension" name="rich_paddingLeft"/>
+        <attr format="dimension" name="rich_paddingRight"/>
+        <attr format="dimension" name="rich_paddingTop"/>
+        <attr format="dimension" name="rich_paddingBottom"/>
+    </declare-styleable><declare-styleable name="MNImageBrowserCircleIndicator">
+        <attr format="dimension" name="ci_width"/>
+        <attr format="dimension" name="ci_height"/>
+        <attr format="dimension" name="ci_margin"/>
+        <attr format="reference" name="ci_animator"/>
+        <attr format="reference" name="ci_animator_reverse"/>
+        <attr format="reference" name="ci_drawable"/>
+        <attr format="reference" name="ci_drawable_unselected"/>
+
+        <attr format="enum" name="ci_orientation">
+            
+            <enum name="horizontal" value="0"/>
+            
+            <enum name="vertical" value="1"/>
+        </attr>
+
+        <attr name="ci_gravity">
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="center_vertical" value="0x10"/>
+            
+            <flag name="fill_vertical" value="0x70"/>
+            
+            <flag name="center_horizontal" value="0x01"/>
+            
+            <flag name="fill_horizontal" value="0x07"/>
+            
+            <flag name="center" value="0x11"/>
+            
+            <flag name="fill" value="0x77"/>
+            
+            <flag name="clip_vertical" value="0x80"/>
+            
+            <flag name="clip_horizontal" value="0x08"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+        </attr>
+
+    </declare-styleable></configuration></mergedItems></merger>

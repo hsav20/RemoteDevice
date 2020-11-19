@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="KCM_EQ_SELECT">
+        <item>00,平直音效</item>
+        <item>01,流行音效</item>
+        <item>02,古典音效</item>
+        <item>03,摇滚音效</item>
+        <item>04,爵士音效</item>
+    </string-array>
+    <string-array name="KCM_INPUT_SOURCE">
+        <item>00,模拟</item>
+        <item>10,光纤</item>
+        <item>11,同轴1</item>
+        <item>12,同轴2</item>
+        <item>30,HDMI1</item>
+        <item>31,HDMI2</item>
+        <item>32,HDMI3</item>
+        <item>33,HDMI-ARC</item>
+        <item>34,视频</item>
+        <item>20,云音乐</item>
+    </string-array>
+    <string-array name="KCM_LISTEN_MODE">
+        <item>00,HIFI立体声</item>
+        <item>01,立体声+超低音</item>
+        <item>10,多声道</item>
+        <item>20,多声道1</item>
+        <item>21,多声道2</item>
+        <item>22,多声道dsp</item>
+    </string-array>
+    <string-array name="KCM_SRC_FORMAT">
+        <item>00,没有</item>
+        <item>01,模拟</item>
+        <item>02,PCM</item>
+        <item>03,AC3</item>
+        <item>04,AC3 HD</item>
+        <item>05,DTS</item>
+        <item>06,DTS HD</item>
+        <item>07,AAC</item>
+        <item>08,LPCM</item>
+        <item>09,HDCD</item>
+        <item>0a,MP3</item>
+    </string-array>
+    <string-array name="device_setup">
+        <item>修改名字</item>
+        <item>BBB</item>
+        <item>CCC</item>
+        <item>版本信息</item>
+    </string-array>
+    <string-array name="left_EQ_text_B">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>话筒1</item>
+        <item>话筒2</item>
+    </string-array>
+    <string-array name="noise_type_text">
+        <item>前置左</item>
+        <item>前置右</item>
+        <item>中置</item>
+        <item>环绕右</item>
+        <item>环绕左</item>
+        <item>后置左</item>
+        <item>后置右</item>
+        <item>超低音</item>
+    </string-array>
+    <string-array name="play_txet">
+        <item>显示</item>
+        <item>随机</item>
+        <item>重复</item>
+        <item>录音</item>
+        <item>停止</item>
+        <item>暂停</item>
+        <item>上一曲</item>
+        <item>下一曲</item>
+    </string-array>
+    <string-array name="speaker_button_text_a">
+        <item>大喇叭</item>
+        <item>开喇叭</item>
+        <item>大喇叭</item>
+        <item>大喇叭</item>
+        <item>大喇叭</item>
+        <item>大喇叭</item>
+        <item>大喇叭</item>
+        <item>大喇叭</item>
+    </string-array>
+    <string-array name="speaker_button_text_b">
+        <item>小喇叭</item>
+        <item>关喇叭</item>
+        <item>小喇叭</item>
+        <item>小喇叭</item>
+        <item>小喇叭</item>
+        <item>小喇叭</item>
+        <item>小喇叭</item>
+        <item>小喇叭</item>
+    </string-array>
+    <string-array name="speaker_button_text_c">
+        <item>关喇叭</item>
+        <item/>
+        <item/>
+        <item/>
+        <item>关喇叭</item>
+        <item>关喇叭</item>
+        <item>关喇叭</item>
+        <item>关喇叭</item>
+    </string-array>
+    <string-array name="speaker_type_text">
+        <item>中置</item>
+        <item>低音</item>
+        <item>前置左</item>
+        <item>前置右</item>
+        <item>环绕左</item>
+        <item>环绕右</item>
+        <item>后置左</item>
+        <item>后置右</item>
+    </string-array>
+    <string-array name="topServer">
+        <item>.ip71.cn</item>
+        <item>.ip72.cn</item>
+        <item>.ip73.cn</item>
+    </string-array>
+    <string-array name="top_EQ_text_A">
+        <item>60Hz</item>
+        <item>120Hz</item>
+        <item>240Hz</item>
+        <item>360Hz</item>
+        <item>420Hz</item>
+    </string-array>
+    <declare-styleable name="MNImageBrowserCircleIndicator">
+        <attr format="dimension" name="ci_width"/>
+        <attr format="dimension" name="ci_height"/>
+        <attr format="dimension" name="ci_margin"/>
+        <attr format="reference" name="ci_animator"/>
+        <attr format="reference" name="ci_animator_reverse"/>
+        <attr format="reference" name="ci_drawable"/>
+        <attr format="reference" name="ci_drawable_unselected"/>
+
+        <attr format="enum" name="ci_orientation">
+            <!-- Defines an horizontal widget. -->
+            <enum name="horizontal" value="0"/>
+            <!-- Defines a vertical widget. -->
+            <enum name="vertical" value="1"/>
+        </attr>
+
+        <attr name="ci_gravity">
+            <!-- Push object to the top of its container, not changing its size. -->
+            <flag name="top" value="0x30"/>
+            <!-- Push object to the bottom of its container, not changing its size. -->
+            <flag name="bottom" value="0x50"/>
+            <!-- Push object to the left of its container, not changing its size. -->
+            <flag name="left" value="0x03"/>
+            <!-- Push object to the right of its container, not changing its size. -->
+            <flag name="right" value="0x05"/>
+            <!-- Place object in the vertical center of its container, not changing its size. -->
+            <flag name="center_vertical" value="0x10"/>
+            <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill_vertical" value="0x70"/>
+            <!-- Place object in the horizontal center of its container, not changing its size. -->
+            <flag name="center_horizontal" value="0x01"/>
+            <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
+            <flag name="fill_horizontal" value="0x07"/>
+            <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+            <flag name="center" value="0x11"/>
+            <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill" value="0x77"/>
+            <!-- Additional option that can be set to have the top and/or bottom edges of
+            the child clipped to its container's bounds.
+            The clip will be based on the vertical gravity: a top gravity will clip the bottom
+            edge, a bottom gravity will clip the top edge, and neither will clip both edges. -->
+            <flag name="clip_vertical" value="0x80"/>
+            <!-- Additional option that can be set to have the left and/or right edges of
+            the child clipped to its container's bounds.
+            The clip will be based on the horizontal gravity: a left gravity will clip the right
+            edge, a right gravity will clip the left edge, and neither will clip both edges. -->
+            <flag name="clip_horizontal" value="0x08"/>
+            <!-- Push object to the beginning of its container, not changing its size. -->
+            <flag name="start" value="0x00800003"/>
+            <!-- Push object to the end of its container, not changing its size. -->
+            <flag name="end" value="0x00800005"/>
+        </attr>
+
+    </declare-styleable>
+    <declare-styleable name="RichTextEditor">
+        <attr format="dimension" name="rich_textSize"/>
+        <attr format="color" name="rich_textColor"/>
+        <attr format="string" name="rich_hint"/>
+        <attr format="color" name="rich_hintTextColor"/>
+        <attr format="dimension" name="rich_paddingLeft"/>
+        <attr format="dimension" name="rich_paddingRight"/>
+        <attr format="dimension" name="rich_paddingTop"/>
+        <attr format="dimension" name="rich_paddingBottom"/>
+    </declare-styleable>
+    <dimen name="rich_font_heading_1">20sp</dimen>
+    <dimen name="rich_font_heading_2">18sp</dimen>
+    <dimen name="rich_font_heading_3">16sp</dimen>
+    <dimen name="rich_font_paragraph">14sp</dimen>
+    <item name="mn_ib_statusbarutil_fake_status_bar_view" type="id"/>
+    <item name="mn_ib_statusbarutil_translucent_view" type="id"/>
+    <string name="cwac_richedittext_background">Background</string>
+    <string name="cwac_richedittext_bold">Bold</string>
+    <string name="cwac_richedittext_center">Center</string>
+    <string name="cwac_richedittext_color">Color</string>
+    <string name="cwac_richedittext_effects">Effects</string>
+    <string name="cwac_richedittext_fonts">Fonts</string>
+    <string name="cwac_richedittext_foreground">Foreground</string>
+    <string name="cwac_richedittext_format">Format</string>
+    <string name="cwac_richedittext_grow">Grow</string>
+    <string name="cwac_richedittext_italic">Italic</string>
+    <string name="cwac_richedittext_lines">Lines</string>
+    <string name="cwac_richedittext_mono">Monospace</string>
+    <string name="cwac_richedittext_normal">Normal</string>
+    <string name="cwac_richedittext_opposite">Opposite</string>
+    <string name="cwac_richedittext_sans">Sans Serif</string>
+    <string name="cwac_richedittext_serif">Serif</string>
+    <string name="cwac_richedittext_shrink">Shrink</string>
+    <string name="cwac_richedittext_size">Size</string>
+    <string name="cwac_richedittext_strikethrough">Strikethrough</string>
+    <string name="cwac_richedittext_subscript">Subscript</string>
+    <string name="cwac_richedittext_superscript">Superscript</string>
+    <string name="cwac_richedittext_underline">Underline</string>
+    <string name="device_center">智能电器</string>
+    <string name="device_name">设备名</string>
+    <string name="edit_device">编辑设备</string>
+    <string name="modify_device_name">修改设备名字</string>
+    <string name="search_device">查找设备</string>
+</resources>

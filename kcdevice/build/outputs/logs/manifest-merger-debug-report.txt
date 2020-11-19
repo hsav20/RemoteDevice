@@ -1,0 +1,53 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml:3:5-27
+		INJECTED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml
+		INJECTED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml
+		ADDED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml
+		ADDED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml:15:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml:16:5-74
+	android:name
+		ADDED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml:16:22-71
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml:17:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml:18:22-76
+uses-sdk
+INJECTED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml
+INJECTED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml
+INJECTED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml
+INJECTED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml
+		ADDED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml
+		INJECTED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml
+		ADDED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml
+		INJECTED from D:\pAndroid\RemoteDevice\kcdevice\src\main\AndroidManifest.xml

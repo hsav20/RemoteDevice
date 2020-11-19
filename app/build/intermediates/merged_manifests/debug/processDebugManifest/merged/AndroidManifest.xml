@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ltd.remotedevice"
+    android:versionCode="1"
+    android:versionName="0.0.15" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+
+    <permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <!-- android 9.0上使用前台服务，需要添加权限 -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <!-- &lt;!&ndash;配置蓝牙相关权限&ndash;&gt; -->
+    <!-- <uses-permission android:name="android.permission.BLUETOOTH"/> -->
+    <!-- <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/> -->
+    <!-- &lt;!&ndash;如果您要声明您的应用仅适用于支持BLE的设备,请设置true&ndash;&gt; -->
+    <!-- <uses-feature android:name="android.hardware.bluetooth_le" -->
+    <!-- android:required="false"/> -->
+    <!-- &lt;!&ndash; 允许程序访问CellID或WiFi热点来获取粗略的位置（安卓6.0用蓝牙必须开） &ndash;&gt; -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="ltd.remotedevice.BootActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ltd.remotedevice.MainActivity" />
+        <activity android:name="ltd.remotedevice.PageActivity" />
+        <activity android:name="ltd.advskin.permission.PermissionsActivity" />
+        <activity android:name="ltd.advskin.home.LocationActivity" />
+
+        <receiver android:name="ltd.advskin.medrecord.HeadsetReceiver" >
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.HEADSET_PLUG"
+                    android:enabled="true" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="ltd.advskin.playworks.PlaySongService" />
+    </application>
+
+</manifest>

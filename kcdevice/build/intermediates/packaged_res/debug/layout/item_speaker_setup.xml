@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/boxFillingBg">
+
+    <ltd.advskin.view.KcBtnText
+        android:id="@+id/kbtSpeakerSetup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/kbpSpeakerSetupA"
+        app:layout_constraintRight_toRightOf="@+id/kbpSpeakerSetupA"/>
+    <ltd.advskin.view.KcBtnProgress
+        android:id="@+id/kbpSpeakerSetupA"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        app:textColor="@color/white"
+        app:textSize="14sp"
+        app:corner="8"
+        app:layout_constraintTop_toBottomOf="@+id/kbtSpeakerSetup"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+    <ltd.advskin.view.KcBtnProgress
+        android:id="@+id/kbpSpeakerSetupB"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        app:textColor="@color/white"
+        app:textSize="14sp"
+        app:corner="8"
+        app:layout_constraintTop_toBottomOf="@+id/kbpSpeakerSetupA"
+        app:layout_constraintLeft_toLeftOf="@+id/kbpSpeakerSetupA"
+        app:layout_constraintRight_toRightOf="@+id/kbpSpeakerSetupA"/>
+    <ltd.advskin.view.KcBtnProgress
+        android:id="@+id/kbpSpeakerSetupC"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        app:textColor="@color/white"
+        app:textSize="14sp"
+        app:corner="8"
+        app:layout_constraintTop_toBottomOf="@+id/kbpSpeakerSetupB"
+        app:layout_constraintLeft_toLeftOf="@+id/kbpSpeakerSetupA"
+        app:layout_constraintRight_toRightOf="@+id/kbpSpeakerSetupA"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

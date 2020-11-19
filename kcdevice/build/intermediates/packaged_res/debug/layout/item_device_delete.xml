@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <!--选择删除-->
+    <ltd.advskin.view.KcBtnImage
+        android:id="@+id/kbiDeleteCenter"
+        android:visibility="gone"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <ltd.advskin.view.KcBtnText
+        android:id="@+id/kbtCenterName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="10dp"
+        app:textSize="14sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/kbiDeleteCenter"/>
+
+    <ltd.advskin.view.KcBtnText
+        android:id="@+id/kbtCenterMac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@+id/kbtCenterName"
+        app:layout_constraintLeft_toLeftOf="@+id/kbtCenterName"/>
+
+    <ltd.advskin.view.KcBtnText
+        android:id="@+id/kbtCenterRssi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        app:textSize="14sp"
+        app:layout_constraintTop_toTopOf="@+id/kbtCenterName"
+        app:layout_constraintBottom_toBottomOf="@+id/kbtCenterMac"
+        app:layout_constraintRight_toLeftOf="@+id/kbpModifyName"/>
+
+    <ltd.advskin.view.KcBtnProgress
+        android:id="@+id/kbpModifyName"
+        android:layout_width="60dp"
+        android:layout_height="35dp"
+        app:textColor="@color/white"
+        app:textSize="14sp"
+        app:corner="8"
+        app:progress="100"
+        app:layout_constraintTop_toTopOf="@+id/kbtCenterName"
+        app:layout_constraintBottom_toBottomOf="@+id/kbtCenterMac"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:background="?attr/boxFillingBg"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kbtCenterMac"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
