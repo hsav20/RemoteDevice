@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ltd.kcdevice">
+
+<!--    &lt;!&ndash;配置蓝牙相关权限&ndash;&gt;-->
+<!--    <uses-permission android:name="android.permission.BLUETOOTH"/>-->
+<!--    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>-->
+<!--    &lt;!&ndash;如果您要声明您的应用仅适用于支持BLE的设备,请设置true&ndash;&gt;-->
+<!--    <uses-feature android:name="android.hardware.bluetooth_le"-->
+<!--        android:required="false"/>-->
+<!--    &lt;!&ndash; 允许程序访问CellID或WiFi热点来获取粗略的位置（安卓6.0用蓝牙必须开） &ndash;&gt;-->
+<!--    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />-->
+
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+</manifest>

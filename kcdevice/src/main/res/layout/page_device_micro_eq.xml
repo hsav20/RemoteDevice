@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ltd.advskin.view.KcHeaderView
+        android:id="@+id/khvMicroEq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ltd.advskin.view.KcBtnText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        app:text="EQ均衡音效"
+        app:textSize="18sp"/>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <RelativeLayout
+                android:layout_width="30dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ltd.advskin.view.KcBtnText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    app:text="+15"
+                    app:textSize="16sp"/>
+                <ltd.advskin.view.KcBtnText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    app:text="0"
+                    app:textSize="16sp"/>
+                <ltd.advskin.view.KcBtnText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    app:text="-15"
+                    app:textSize="16sp"/>
+            </RelativeLayout>
+            <ltd.kcdevice.view.VerticalAdjView
+                android:id="@+id/vvMicroEqA1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ltd.kcdevice.view.VerticalAdjView
+                android:id="@+id/vvMicroEqA2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ltd.kcdevice.view.VerticalAdjView
+                android:id="@+id/vvMicroEqA3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ltd.kcdevice.view.VerticalAdjView
+                android:id="@+id/vvMicroEqA4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ltd.kcdevice.view.VerticalAdjView
+                android:id="@+id/vvMicroEqA5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="?attr/boxFillingBg"/>
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ltd.advskin.view.KcBtnText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                app:text="延迟时间"
+                app:textSize="18sp"/>
+            <ltd.kcdevice.view.HorizontalAdjView
+                android:id="@+id/havMicroEQB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?attr/boxFillingBg"/>
+
+
+
+            <ltd.advskin.view.KcBtnText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                app:text="直达声"
+                app:textSize="18sp"/>
+            <ltd.kcdevice.view.HorizontalAdjView
+                android:id="@+id/havMicroEQC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?attr/boxFillingBg"/>
+
+
+            <ltd.advskin.view.KcBtnText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                app:text="混响"
+                app:textSize="18sp"/>
+            <ltd.kcdevice.view.HorizontalAdjView
+                android:id="@+id/havMicroEQD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?attr/boxFillingBg"/>
+
+
+
+            <ltd.advskin.view.KcBtnText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                app:text="音量"
+                app:textSize="18sp"/>
+            <ltd.kcdevice.view.HorizontalAdjView
+                android:id="@+id/havMicro1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"/>
+            <ltd.kcdevice.view.HorizontalAdjView
+                android:id="@+id/havMicro2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?attr/boxFillingBg"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

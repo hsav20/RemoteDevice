@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="topServer">
+        <item>.ip71.cn</item>
+        <item>.ip72.cn</item>
+        <item>.ip73.cn</item>
+    </string-array>
+
+</resources>

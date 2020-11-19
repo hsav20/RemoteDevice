@@ -1,0 +1,49 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.1"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+}
+repositories {
+    flatDir {
+        dirs '../app/libs'
+    }
+}
+dependencies {
+    implementation(name: 'advskin', ext: 'aar')
+// 注意，拉下来新的后，需要更改advskin为advskin2 或者 advskin2为advskin，以使用新的aar文件，Module: app也需要同时修改
+
+    compileOnly files('../app/jar/kcbsdk.jar')
+    compileOnly files('../app/jar/crashreport.jar')
+    compileOnly files('../app/jar/zip4j_1.3.1.jar')
+
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+
+//    Android Studio解决org.gradle.api.resources.ResourceException: Could not get resource - CSDN博客
+//    https://blog.csdn.net/qq_36982160/article/details/80722093
+
+}

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cwac_richedittext_bold">Bold</string>
+    <string name="cwac_richedittext_italic">Italic</string>
+    <string name="cwac_richedittext_underline">Underline</string>
+    <string name="cwac_richedittext_strikethrough">Strikethrough</string>
+    <string name="cwac_richedittext_superscript">Superscript</string>
+    <string name="cwac_richedittext_subscript">Subscript</string>
+    <string name="cwac_richedittext_sans">Sans Serif</string>
+    <string name="cwac_richedittext_serif">Serif</string>
+    <string name="cwac_richedittext_mono">Monospace</string>
+    <string name="cwac_richedittext_effects">Effects</string>
+    <string name="cwac_richedittext_fonts">Fonts</string>
+    <string name="cwac_richedittext_format">Format</string>
+    <string name="cwac_richedittext_lines">Lines</string>
+    <string name="cwac_richedittext_normal">Normal</string>
+    <string name="cwac_richedittext_center">Center</string>
+    <string name="cwac_richedittext_opposite">Opposite</string>
+    <string name="cwac_richedittext_grow">Grow</string>
+    <string name="cwac_richedittext_shrink">Shrink</string>
+    <string name="cwac_richedittext_size">Size</string>
+    <string name="cwac_richedittext_color">Color</string>
+    <string name="cwac_richedittext_foreground">Foreground</string>
+    <string name="cwac_richedittext_background">Background</string>
+
+
+    <!--ModifyPhonePage-->
+    <string name="device_center">智能电器</string>
+    <string name="search_device">查找设备</string>
+    <string name="edit_device">编辑设备</string>
+    <string name="device_name">设备名</string>
+    <string name="modify_device_name">修改设备名字</string>
+
+
+    <string-array name="top_EQ_text_A">
+        <item>60Hz</item>
+        <item>120Hz</item>
+        <item>240Hz</item>
+        <item>360Hz</item>
+        <item>420Hz</item>
+    </string-array>
+
+    <string-array name="left_EQ_text_B">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>话筒1</item>
+        <item>话筒2</item>
+    </string-array>
+
+    <string-array name="noise_type_text">
+        <item>前置左</item>
+        <item>前置右</item>
+        <item>中置</item>
+        <item>环绕右</item>
+        <item>环绕左</item>
+        <item>后置左</item>
+        <item>后置右</item>
+        <item>超低音</item>
+    </string-array>
+
+    <string-array name="KCM_INPUT_SOURCE">
+        <item>00,模拟</item>
+        <item>10,光纤</item>
+        <item>11,同轴1</item>
+        <item>12,同轴2</item>
+        <item>30,HDMI1</item>
+        <item>31,HDMI2</item>
+        <item>32,HDMI3</item>
+        <item>33,HDMI-ARC</item>
+        <item>34,视频</item>
+        <item>20,云音乐</item>
+    </string-array>
+    <string-array name="KCM_LISTEN_MODE">
+        <item>00,HIFI立体声</item>
+        <item>01,立体声+超低音</item>
+        <item>10,多声道</item>
+        <item>20,多声道1</item>
+        <item>21,多声道2</item>
+        <item>22,多声道dsp</item>
+    </string-array>
+    <string-array name="KCM_EQ_SELECT">
+        <item>00,平直音效</item>
+        <item>01,流行音效</item>
+        <item>02,古典音效</item>
+        <item>03,摇滚音效</item>
+        <item>04,爵士音效</item>
+    </string-array>
+    <string-array name="KCM_SRC_FORMAT">
+        <item>00,没有</item>
+        <item>01,模拟</item>
+        <item>02,PCM</item>
+        <item>03,AC3</item>
+        <item>04,AC3 HD</item>
+        <item>05,DTS</item>
+        <item>06,DTS HD</item>
+        <item>07,AAC</item>
+        <item>08,LPCM</item>
+        <item>09,HDCD</item>
+        <item>0a,MP3</item>
+    </string-array>
+
+
+
+
+
+    <string-array name="play_txet">
+        <item>显示</item>
+        <item>随机</item>
+        <item>重复</item>
+        <item>录音</item>
+        <item>停止</item>
+        <item>暂停</item>
+        <item>上一曲</item>
+        <item>下一曲</item>
+    </string-array>
+
+    <string-array name="speaker_type_text">
+        <item>中置</item>
+        <item>低音</item>
+        <item>前置左</item>
+        <item>前置右</item>
+        <item>环绕左</item>
+        <item>环绕右</item>
+        <item>后置左</item>
+        <item>后置右</item>
+    </string-array>
+
+    <string-array name="speaker_button_text_a">
+        <item>大喇叭</item>
+        <item>开喇叭</item>
+        <item>大喇叭</item>
+        <item>大喇叭</item>
+        <item>大喇叭</item>
+        <item>大喇叭</item>
+        <item>大喇叭</item>
+        <item>大喇叭</item>
+    </string-array>
+
+    <string-array name="speaker_button_text_b">
+        <item>小喇叭</item>
+        <item>关喇叭</item>
+        <item>小喇叭</item>
+        <item>小喇叭</item>
+        <item>小喇叭</item>
+        <item>小喇叭</item>
+        <item>小喇叭</item>
+        <item>小喇叭</item>
+    </string-array>
+
+    <string-array name="speaker_button_text_c">
+        <item>关喇叭</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>关喇叭</item>
+        <item>关喇叭</item>
+        <item>关喇叭</item>
+        <item>关喇叭</item>
+    </string-array>
+
+
+    <string-array name="device_setup">
+        <item>修改名字</item>
+        <item>BBB</item>
+        <item>CCC</item>
+        <item>版本信息</item>
+    </string-array>
+
+    <!--  getString(R.string.   MAPI.mActivity.getResources().getStringArray(R.array. -->
+    <!-- <string name="page">第%1$s页%2$s行</string>   getString(R.string.page,"345","24");   -->
+</resources>

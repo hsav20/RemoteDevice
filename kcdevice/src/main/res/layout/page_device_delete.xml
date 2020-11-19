@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rlNormalList">
+
+    <ltd.advskin.view.KcHeaderView
+        android:id="@+id/khvDeleteTitel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvDelete"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/khvDeleteTitel"
+        android:layout_above="@+id/kbtDeleteBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/khvDeleteTitel"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <ltd.advskin.view.KcBottomView
+        android:visibility="gone"
+        android:id="@+id/kbtDeleteBottom"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+</RelativeLayout>
+
+

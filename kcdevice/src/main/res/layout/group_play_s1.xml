@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ltd.advskin.view.KcLayoutCard
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    app:cardMaxElevation="5dp">
+
+    <LinearLayout
+        android:id="@+id/llPlay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <ltd.advskin.view.KcBtnText
+            android:id="@+id/kbtPlay8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            app:text="00:00"/>
+        <SeekBar
+            android:id="@+id/sbPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:thumbOffset="0dp"
+            android:maxHeight="5dp"
+            android:minHeight="5dp"
+            android:max="100"
+            android:progressDrawable="@drawable/seekbar_download"
+            android:thumb="@drawable/seekbar_thumb"
+            app:layout_constraintHorizontal_weight="1"/>
+        <ltd.advskin.view.KcBtnText
+            android:id="@+id/kbtPlay9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            app:text="03:03"/>
+
+    </LinearLayout>
+
+
+    <HorizontalScrollView
+        android:id="@+id/hsvPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/llPlay"
+        app:layout_constraintLeft_toLeftOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical">
+            <ltd.advskin.view.KcBtnProgress
+                android:id="@+id/kbpPlay1"
+                android:layout_margin="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            <ltd.advskin.view.KcBtnProgress
+                android:id="@+id/kbpPlay2"
+                android:layout_margin="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            <ltd.advskin.view.KcBtnProgress
+                android:id="@+id/kbpPlay3"
+                android:layout_margin="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            <ltd.advskin.view.KcBtnProgress
+                android:id="@+id/kbpPlay4"
+                android:layout_margin="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            <ltd.advskin.view.KcBtnProgress
+                android:id="@+id/kbpPlay5"
+                android:layout_margin="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            <ltd.advskin.view.KcBtnProgress
+                android:id="@+id/kbpPlay6"
+                android:layout_margin="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            <ltd.advskin.view.KcBtnProgress
+                android:id="@+id/kbpPlay7"
+                android:layout_margin="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            <ltd.advskin.view.KcBtnProgress
+                android:id="@+id/kbpPlay8"
+                android:layout_margin="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+</ltd.advskin.view.KcLayoutCard>
