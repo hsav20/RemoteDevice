@@ -61,7 +61,7 @@
             </intent-filter>
         </activity>
         <activity android:name="ltd.remotedevice.MainActivity" />
-        <activity android:name="ltd.remotedevice.PageActivity" />
+        <activity android:name="ltd.remotedevice.MainActivity" />
         <activity android:name="ltd.advskin.permission.PermissionsActivity" />
         <activity android:name="ltd.advskin.home.LocationActivity" />
 

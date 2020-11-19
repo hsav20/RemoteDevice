@@ -13,7 +13,6 @@ import ltd.advskin.base.KcListener;
 import ltd.advskin.base.SkinActivity;
 import ltd.advskin.permission.PermissionsActivity;
 import ltd.advskin.permission.PermissionsChecker;
-import ltd.advskin.task.TaskSysUpdate;
 import ltd.advskin.utils.SysTools;
 import ltd.kcdevice.MKCDEV;
 import ltd.kcdevice.device.DevUtils;
@@ -56,6 +55,7 @@ public class BootActivity extends SkinActivity {
         MainPage.logEnable = true;
 
         MLOG("这里打开所有需要测试的LOG");
+        MainActivity.logEnable = true;
         MainPage.logEnable = true;
         DevUtils.logEnable = true;
         DeviceCenterPage.logEnable = true;
@@ -170,7 +170,7 @@ public class BootActivity extends SkinActivity {
         if (true) {
             String gsLocal_1 = Build.MODEL + "&" + Settings.Secure.getString(MAPI.mContext.getContentResolver(), "android_id");
             MSTRING("String gsLocal_1A  "+gsLocal_1);
-            startActivity(new Intent(BootActivity.this, PageActivity.class));
+            startActivity(new Intent(BootActivity.this, MainActivity.class));
         }else {
 //            startActivity(new Intent(BootActivity.this, MainActivity.class));
         }

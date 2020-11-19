@@ -26,24 +26,6 @@ import ltd.advskin.task.LocalLookup;
 import ltd.advskin.utils.AdvView;
 import ltd.advskin.view.KcHeaderView;
 import ltd.kcdevice.MKCDEV;
-import ltd.kcdevice.device.KcmCtrl;
-import ltd.kcdevice.device.DevUtils;
-import ltd.kcdevice.device.KcmText;
-import ltd.kcdevice.device.RunBle;
-import ltd.kcdevice.model.CommonPage;
-import ltd.kcdevice.page.DeviceCenterPage;
-import ltd.kcdevice.page.DeviceSearchPage;
-import ltd.kcdevice.model.Kc35hPage;
-import ltd.kcdevice.page.SpeakerSetupPage;
-import ltd.kcdevice.view.InputSourceS1Group;
-import ltd.kcdevice.view.MicroPhoneS1Group;
-import ltd.kcdevice.view.MoreS1Group;
-import ltd.kcdevice.view.PlayS1Group;
-import ltd.kcdevice.view.SetupS1Group;
-import ltd.kcdevice.view.SpeakerSetupView;
-import ltd.kcdevice.view.ListenModeS1Group;
-import ltd.kcdevice.view.EqSelectS1Group;
-import ltd.kcdevice.view.VolumeS1Group;
 import main.AsmUtils;
 import main.MAPI;
 
@@ -243,7 +225,7 @@ public class MainPage extends BasePage {
                     MKCDEV.addTheme();
                     ltd.remotedevice.MAPP.isChangThemeStyle = true;
                     getActivity().finish();
-                    getActivity().startActivity(new Intent(getActivity(), PageActivity.class));
+                    getActivity().startActivity(new Intent(getActivity(), MainActivity.class));
                     break;
                 case R.id.btnKey7:      // 噪音测试
                     MKCDEV.startSpeakerSetupPage();

@@ -188,10 +188,6 @@ activity#ltd.remotedevice.MainActivity
 ADDED from D:\pAndroid\RemoteDevice\app\src\main\AndroidManifest.xml:45:9-50
 	android:name
 		ADDED from D:\pAndroid\RemoteDevice\app\src\main\AndroidManifest.xml:45:19-47
-activity#ltd.remotedevice.PageActivity
-ADDED from D:\pAndroid\RemoteDevice\app\src\main\AndroidManifest.xml:46:9-50
-	android:name
-		ADDED from D:\pAndroid\RemoteDevice\app\src\main\AndroidManifest.xml:46:19-47
 uses-sdk
 INJECTED from D:\pAndroid\RemoteDevice\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\pAndroid\RemoteDevice\app\src\main\AndroidManifest.xml
